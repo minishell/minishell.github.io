@@ -1,9 +1,11 @@
 ---
 lang: ko-KR
-title: CI/CD
+title: 🍎 Linux
 description: 사내 스터디에서 활용하는 자료 페이지입니다.
 ---
 
-# 개념
+# :apple: Linux
 
-# 사용
+## DAY 1
+
+## DAY 2

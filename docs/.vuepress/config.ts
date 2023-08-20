@@ -7,7 +7,7 @@ export default defineUserConfig({
   description: 'Just playing around and get your purple grapes',
   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   theme: defaultTheme({
-    //logo: '/logo.png',
+    logo: '/images/logo.png',
     navbar: [
       // NavbarItem
       // {
@@ -19,12 +19,12 @@ export default defineUserConfig({
         text: 'Neurons',
         children: [
           {
-            text: 'Docker',
-            link: '/work/docker.md'
+            text: 'Docker and CI/CD',
+            link: '/work/2308_docker_cicd.md'
           }, 
           {
             text: 'CI/CD',
-            link: '/work/cicd.md'
+            link: '/work/2309_linux.md'
           }
         ]
       },
@@ -42,6 +42,10 @@ export default defineUserConfig({
           {
             text: 'Typescript',
             link: '/study/0806_typescript.md'
+          },
+          {
+            text: 'GitHub Actions',
+            link: '/study/0820_githubActions.md'
           }
         ]
       }
@@ -54,7 +58,7 @@ export default defineUserConfig({
         {
           text: 'Neurons',
           collapsible: true,
-          children: ['/work/docker.md', '/work/cicd.md'],
+          children: ['/work/2308_docker_cicd.md', '/work/2309_linux.md'],
         }
       ],
       '/workout/': [
@@ -68,7 +72,7 @@ export default defineUserConfig({
         {
           text: 'Dreams',
           collapsible: false,
-          children: ['/study/0730_prep.md', '/study/0806_typescript.md'],
+          children: ['/study/0730_prep.md', '/study/0806_typescript.md', '/study/0820_githubActions.md'],
         }
       ]
     },
