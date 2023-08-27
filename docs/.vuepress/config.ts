@@ -1,11 +1,15 @@
 import { defineUserConfig } from 'vuepress';
 import { defaultTheme } from '@vuepress/theme-default';
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 
 export default defineUserConfig({
   lang: 'en-US',
   title: 'Vinyard',
   description: 'Just playing around and get your purple grapes',
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    ['meta', { name: 'google-site-verification', content: 'Djh8ZkC2zZ1yF1aCBdMWgDqoKA49xuLm1xAtcy0deuo' }],
+  ], 
   theme: defaultTheme({
     logo: '/images/logo.png',
     navbar: [
@@ -23,14 +27,19 @@ export default defineUserConfig({
             link: '/work/2308_docker_cicd.md'
           }, 
           {
-            text: 'CI/CD',
+            text: 'Linux',
             link: '/work/2309_linux.md'
           }
         ]
       },
       {
         text: 'Proteins',
-        children: ['/workout/grapes.md']
+        children: [
+          {
+            text: 'The Great Grapes',
+            link: '/workout/grapes.md'
+          }
+        ]
       },
       {
         text: 'Dreams',
@@ -77,4 +86,7 @@ export default defineUserConfig({
       ]
     },
   }),
-})
+  plugins: [
+    sitemapPlugin({ hostname: 'https://minishell.github.io' }),
+  ]
+});

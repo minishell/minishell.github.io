@@ -7,7 +7,7 @@ export default defaultTheme({
         children: [
         {
             text: 'Neurons',
-            children: ['/work/docker.md', '/work/cicd.md'],
+            children: ['/work/2308_docker_cicd.md', '/work/2309_linux.md'],
         }
         ],
     },
