@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Hello Vinyard","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1692515529000,"contributors":[{"name":"Eubin","email":"eeubinn@gmail.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
