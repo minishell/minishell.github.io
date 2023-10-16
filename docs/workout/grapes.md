@@ -24,7 +24,7 @@ description: 포도알 단원들의 운동을 기록하는 페이지입니다.
 
 ## :three: Grape the third
 포도알갱이 3기 목록입니다. 누가 언제부터 어떤 목표로 포도알을 채울지 확인하세요.
-* 2기 전원+5명
+* 2기 전원+6명
 * 풀업/친업, 푸시업, 데드 버그
 * 10/23- [알갱이 출석 체크](https://docs.google.com/spreadsheets/d/1zJ1R5vi43HoqkQuDboOWVg1xFI-y-fomg04suOc9sNU/edit#gid=1475635096)
 * 12/1 졸업식 :tada: @:wine_glass:
